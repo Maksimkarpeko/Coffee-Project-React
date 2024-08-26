@@ -1,0 +1,14 @@
+.Button-filter {
+	border-radius: 4px;
+	box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+	background: rgb(255, 255, 255);
+	border: 1px solid white;
+	padding: 7px 20px 7px 20px;
+	margin-right: 5px;
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0%;
+}

@@ -1,0 +1,25 @@
+.footer-container {
+	padding-top: 30px;
+}
+
+.footer-container a {
+	text-decoration: none;
+	color: black;
+	font-family: Merienda;
+	font-size: 12px;
+	font-weight: 400;
+	padding-right: 40px;
+}
+.footer-container a:hover {
+	color: rgb(134, 134, 134);
+	text-decoration: underline;
+	transition: 200ms all;
+}
+footer {
+	margin-top: 10px;
+	margin-left: 582px;
+}
+.footer-img {
+	padding-top: 30px;
+	padding-left: 72px;
+}

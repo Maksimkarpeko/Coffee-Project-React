@@ -1,0 +1,33 @@
+.Fourst-Page-About {
+	display: flex;
+	margin: 78px 0 59px 0;
+}
+.Fourst-Page-Img {
+	padding-left: 365px;
+}
+.Fourst-Page-Text {
+	padding-left: 85px;
+	padding-top: 25px;
+	text-align: center;
+}
+.Fourst-Page-Text h2 {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 0%;
+}
+.Fourst-Page-Text p {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+}
+
+.Fourst-Page-Text img{
+	padding-top: 20px;
+	padding-bottom: 25.7px;
+}

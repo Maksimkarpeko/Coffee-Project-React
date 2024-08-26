@@ -1,0 +1,54 @@
+.menu-container {
+	padding-top: 30px;
+}
+
+.menu-container a {
+	text-decoration: none;
+	color: white;
+	font-family: Merienda;
+	font-size: 12px;
+	font-weight: 400;
+	padding-right: 40px;
+}
+.menu-container a:hover {
+	color: rgb(156, 156, 156);
+	text-decoration: underline;
+	transition: 200ms all;
+}
+.menu {
+	background-image: url(../../../img/FirstBgImg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 640px;
+}
+.center-text {
+	text-align: center;
+	color: white;
+	padding-top: 111px;
+}
+.center-text h1 {
+	font-family: Merienda;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 0%;
+}
+.center-text h2 {
+	font-family: Merienda;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0%;
+}
+.center-text-energy {
+	margin-top: 35px;
+}
+.Btn-Text {
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	padding: 5px 42px 10px 42px;
+	border-radius: 5px;
+}
+.Btn-Text:hover {
+	background-color: #353535;
+	transition: 200ms all;
+}

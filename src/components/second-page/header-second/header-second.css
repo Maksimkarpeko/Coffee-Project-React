@@ -1,0 +1,18 @@
+.menu-page {
+	background-image: url(../../../img/MaskGroup2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 280px;
+}
+.center-text-second {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin-top: 60px;
+}
+.center-text-second h2{
+	font-family: Merienda;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 58px;
+	letter-spacing: 0%;
+}

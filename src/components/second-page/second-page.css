@@ -1,0 +1,26 @@
+.Function-panel {
+	display: flex;
+	margin: 64px 0 61px 383px;
+}
+.fist-function-panel {
+	margin-right: 83px;
+}
+.fist-function-panel span {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+	padding-right: 19px;
+}
+.second-function-panel span {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+	padding-right: 35px;
+	padding-top:8px ;
+}

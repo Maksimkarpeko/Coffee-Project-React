@@ -1,0 +1,38 @@
+.our-beans {
+	display: flex;
+}
+.our-beans-text p {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+.our-beans-text h2 {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+.our-beans-text img {
+	padding-left: 45px;
+	padding-bottom: 29px;
+}
+.our-beans-img {
+	margin: 70px 79px 59px 391px;
+}
+.our-beans-text {
+	margin: 95px 0 0 0;
+}
+hr {
+	width: 240px;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}

@@ -1,0 +1,18 @@
+.About {
+	text-align: center;
+	height: 520px;
+}
+.About p {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	width: 589px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+	margin-left: 470px;
+	margin-top: 40px;
+}
+.About h2 {
+	padding-top: 80px;
+}

@@ -1,0 +1,42 @@
+.About-it-3 {
+	display: flex;
+	margin: 78px 0 73px 0;
+}
+.About-it-img {
+	padding-left: 280px;
+}
+.About-it-text h2 {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 0%;
+	text-align: center;
+	padding-top: 25px;
+}
+.About-it-text img {
+	padding-left: 70px;
+	padding-bottom: 20px;
+}
+.About-it-text {
+	margin-left: 45px;
+}
+.About-it-text span {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 0px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+.About-it-text p {
+	color: rgb(0, 0, 0);
+	font-family: Merienda;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: left;
+}
