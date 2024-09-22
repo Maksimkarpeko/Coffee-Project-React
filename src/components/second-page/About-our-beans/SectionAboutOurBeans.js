@@ -6,7 +6,7 @@ import Girl from '../../../img/Girl.png';
 export default function SectionAboutOurBeans() {
 	return (
 		<>
-			<div className='our-beans'>
+			<section className='our-beans'>
 				<div className='our-beans-img'>
 					<img src={Girl} alt='Girl' />
 				</div>
@@ -25,7 +25,7 @@ export default function SectionAboutOurBeans() {
 						song that held help face.
 					</p>
 				</div>
-			</div>
+			</section>
 			<hr />
 		</>
 	);

@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import { Component, useState } from 'react';
 import Footer from '../footer/Footer';
 import SectionAboutOurBeans from './About-our-beans/SectionAboutOurBeans';
 import Search from './Search/search';
@@ -55,39 +55,63 @@ class SecondPage extends Component {
 		this.setState({ value: newValue });
 	};
 
-	setNewValue = (value) => {
-    this.setState({
-        fromValue: value === this.state.fromValue ? '' : value,
-    });
-};
+	setNewValue = value => {
+		this.setState({
+			fromValue: value === this.state.fromValue ? '' : value,
+		});
+	};
 
 	render() {
 		const filterCoffeeFrom = this.CardArr.filter(coffee => {
-			return(coffee.From.toLowerCase() === this.state.fromValue.toLowerCase() || this.state.fromValue === '') && coffee.From.toLowerCase().includes(this.state.value.toLowerCase())
-	});
+			return (
+				(coffee.From.toLowerCase() === this.state.fromValue.toLowerCase() ||
+					this.state.fromValue === '') &&
+				coffee.From.toLowerCase().includes(this.state.value.toLowerCase())
+			);
+		});
 
-	const filterCoffeeFromNew = this.CardArrNew.filter(coffee => {
-			return (coffee.From.toLowerCase() === this.state.fromValue.toLowerCase() || this.state.fromValue === '') && coffee.From.toLowerCase().includes(this.state.value.toLowerCase());
-	});
+		const filterCoffeeFromNew = this.CardArrNew.filter(coffee => {
+			return (
+				(coffee.From.toLowerCase() === this.state.fromValue.toLowerCase() ||
+					this.state.fromValue === '') &&
+				coffee.From.toLowerCase().includes(this.state.value.toLowerCase())
+			);
+		});
 
 		return (
 			<>
 				<HeaderSecond />
 				<SectionAboutOurBeans />
-				<div className='Function-panel'>
-					<div className='fist-function-panel'>
-						<Search value={this.state.value} onChange={this.setValue} />
+				<section>
+					<div className='Function-panel'>
+						<div className='fist-function-panel'>
+							<Search value={this.state.value} onChange={this.setValue} />
+						</div>
+						<div className='second-function-panel'>
+							<Filter
+								fromValue={this.state.fromValue}
+								onHandClick={this.setNewValue}
+							/>
+						</div>
 					</div>
-					<div className='second-function-panel'>
-						<Filter
-							fromValue={this.state.fromValue}
-							onHandClick={this.setNewValue}
-						/>
+				</section>
+				<section>
+					<div style={{ display: 'flex' }} className='Card-New'>
+						<div style={{ display: 'flex' }}>
+							{filterCoffeeFrom.map((item, index) => (
+								<div className={index === 0 ? 'First-card' : ''}>
+									<Card
+										key={index}
+										Name={item.Name}
+										From={item.From}
+										Price={item.Price}
+									/>
+								</div>
+							))}
+						</div>
 					</div>
-				</div>
-				<div style={{ display: 'flex' }} className='Card-New'>
 					<div style={{ display: 'flex' }}>
-						{filterCoffeeFrom.map((item, index) => (
+						{filterCoffeeFromNew.map((item, index) => (
 							<div className={index === 0 ? 'First-card' : ''}>
 								<Card
 									key={index}
@@ -98,19 +122,8 @@ class SecondPage extends Component {
 							</div>
 						))}
 					</div>
-				</div>
-				<div style={{ display: 'flex' }}>
-					{filterCoffeeFromNew.map((item, index) => (
-						<div className={index === 0 ? 'First-card' : ''}>
-							<Card
-								key={index}
-								Name={item.Name}
-								From={item.From}
-								Price={item.Price}
-							/>
-						</div>
-					))}
-				</div>
+				</section>
+
 				<Footer />
 			</>
 		);

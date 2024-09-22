@@ -4,7 +4,7 @@ import './third-about-it.css';
 const ThirdAboutIt = () => {
 	return (
 		<>
-			<div className='About-it-3'>
+			<section className='About-it-3'>
 				<div className='About-it-img'>
 					<img src={AromaPicha} alt='Aroma' />
 				</div>
@@ -27,7 +27,7 @@ const ThirdAboutIt = () => {
 						</b>
 					</p>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 };

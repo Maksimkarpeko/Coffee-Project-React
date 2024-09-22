@@ -1,5 +1,4 @@
 import '../Section-About-us/About-Us.css'
-
 import ZernoBlack from "../../../img/Beans logo(Dark).png"
 
 export default function SectionAboutUs() {
@@ -14,6 +13,7 @@ export default function SectionAboutUs() {
 				calling pleased improve an. Last ask him cold feel met spot shy want.
 				Children me laughing we prospect answered followed. At it went is song
 				that held help face. 
+				<br />
 				<br />
 				Now residence dashwoods she excellent you. Shade
 				being under his bed her, Much read on as draw. Blessing for ignorant

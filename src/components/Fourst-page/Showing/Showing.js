@@ -1,6 +1,6 @@
 import Card from '../../second-page/card/Card';
 
-const Showing = ()=>{
+const Showing = () => {
 	const CardArr = [
 		{
 			Name: 'AROMISTICO Coffee 1 kg',
@@ -35,9 +35,10 @@ const Showing = ()=>{
 			Price: '6.99',
 		},
 	];
-	return(
+	return (
 		<>
-		<div style={{ display: 'flex' }} className='Card-New'>
+			<section>
+				<div style={{ display: 'flex' }} className='Card-New'>
 					<div style={{ display: 'flex' }}>
 						{CardArr.map((item, index) => (
 							<div className={index === 0 ? 'First-card' : ''}>
@@ -63,7 +64,8 @@ const Showing = ()=>{
 						</div>
 					))}
 				</div>
+			</section>
 		</>
-	)
-}
-export default Showing
+	);
+};
+export default Showing;

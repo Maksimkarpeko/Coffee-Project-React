@@ -3,7 +3,7 @@ import FirstPage from './components/first-page/FirstPage';
 import SecondPage from './components/second-page/second-page';
 import ThirdPage from './components/third-page/third-page';
 import FourstPage from './components/Fourst-page/Fourst-page';
-
+import "./media/Staly.css"
 function App() {
 	return (
 		<>

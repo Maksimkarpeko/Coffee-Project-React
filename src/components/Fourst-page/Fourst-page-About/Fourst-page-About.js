@@ -4,7 +4,7 @@ import './Fourst-page-About.css';
 const FourstPageAbout = () => {
 	return (
 		<>
-			<div className='Fourst-Page-About'>
+			<section className='Fourst-Page-About'>
 				<div className='Fourst-Page-Img'>
 					<img src={Aboutourgoods} alt='About' />
 				</div>
@@ -24,7 +24,7 @@ const FourstPageAbout = () => {
 						help face.
 					</p>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 };
